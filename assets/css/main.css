@@ -1,0 +1,50 @@
+.conteudo_corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo_corpo_destaque h1 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    padding-top: 3.12rem;
+}
+
+.conteudo_corpo_destaque p {
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 1rem;
+    padding-bottom: 4.9rem;
+}
+
+
+/*============CARDS===========================*/
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: var(--cor-card-sapato);
+    height: 15rem;
+}
+
+.card_item {
+    margin-bottom: 1.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card_item {
+        margin-right: 1rem;
+    }
+}

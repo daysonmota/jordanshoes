@@ -1,0 +1,66 @@
+    .cabecalho_principal {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    li:nth-child(1) {
+        background: #181818;
+        color: var( --cor-branco-texto);
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    li:nth-child(2) {
+        padding: 1rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    
+    .main_principal {
+        background: url("../img/imagem-principal.png") center / cover no-repeat;
+        min-height: 12rem;
+        filter: brightness(.6);
+        position: relative;
+    }
+    
+    .descricao_princial_site {
+        text-align: center;
+        position: absolute;
+        top: 0;
+    }
+    
+    .descricao_site_principal {
+        font-weight: bold;
+        padding-top: 8rem;
+        padding-bottom: .75rem;
+        font-size: 1.75rem;
+        color: var(--cor-branco-texto);
+    }
+    
+    .descricao_site {
+        font-weight: 600;
+        padding: .75rem .75rem 7.62rem .75rem;
+        line-height: 1.5;
+        color: var(--cor-branco-texto)
+    }
+    
+    @media screen and (min-width: 768px) {
+        .main_principal {
+            padding: 6rem;
+        }
+        .descricao_princial_site {
+            text-align: left;
+            margin: 7rem 0 1rem 1rem;
+        }
+        .descricao_site_principal {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-left: .6rem;
+        }
+        .descricao_site {
+            line-height: 2.0;
+            width: 60%;
+        }
+    }

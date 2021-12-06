@@ -1,0 +1,16 @@
+:root {
+    --cor-branco-texto: #F6F6F6;
+    --cor-card-sapato: #EBE9EA;
+    --cor-rodape-fundo: #181818;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
